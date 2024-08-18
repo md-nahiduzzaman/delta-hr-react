@@ -6,7 +6,7 @@ import { createBrowserRouter } from "react-router-dom";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <DashboardLayout />,
+    element: <DashboardLayout></DashboardLayout>,
     errorElement: <ErrorPage />,
     children: [
       {
