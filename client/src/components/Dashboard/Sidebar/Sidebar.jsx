@@ -46,7 +46,7 @@ const Sidebar = () => {
         </nav>
       </div>
       <hr />
-      <div className="mb-6 mt-4 flex flex-col gap-2">
+      <div className="mb-6 mt-6 flex flex-col gap-2">
         <div className="flex items-center gap-2 px-6">
           <div>
             <Avatar>
