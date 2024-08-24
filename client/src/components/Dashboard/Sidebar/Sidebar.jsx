@@ -60,9 +60,9 @@ const Sidebar = () => {
           </div>
         </div>
         <div className=" flex w-full items-center px-4  text-slate-900 ">
-          <Button className="px-4 py-2 my-1 flex justify-start rounded hover:bg-gray-300 hover:text-gray-700 transition-colors duration-300 transform w-full">
+          <Button variant="ghost" className="w-full justify-start">
             <LogOut className="w-5 h-5" />
-            <span className="text-base mx-2 font-medium">Logout</span>
+            <span className="mx-2">Logout</span>
           </Button>
         </div>
       </div>
