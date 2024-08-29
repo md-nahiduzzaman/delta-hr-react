@@ -2,8 +2,10 @@ import { Calendar } from "@/components/ui/calendar";
 import { useState } from "react";
 import { Separator } from "@/components/ui/separator";
 import Heading from "@/components/Shared/Heading";
-import AttendanceForm from "@/components/AttendanceForm";
+
 import CardWrapper from "@/components/Shared/CardWrapper";
+import AttendanceForm from "@/components/Dashboard/Employee/AttendanceForm";
+import AttendanceTable from "@/components/Dashboard/Employee/AttendanceTable";
 
 const Attendance = () => {
   // Initialize the date state with today's date
@@ -22,7 +24,7 @@ const Attendance = () => {
             heading="Attendance Input"
             title="Input your attendance data here"
           >
-            <AttendanceForm></AttendanceForm>
+            <AttendanceForm />
           </CardWrapper>
 
           {/* table */}
@@ -30,7 +32,7 @@ const Attendance = () => {
             heading="Attendance Table"
             title="Your attendance details"
           >
-            <h1>tabel gose here</h1>
+            <AttendanceTable />
           </CardWrapper>
         </div>
 
